@@ -1,0 +1,31 @@
+{
+  "bomFormat": "CycloneDX",
+  "components": [],
+  "dependencies": [],
+  "externalReferences": [],
+  "metadata": {
+    "component": {
+      "name": "amazon/chronos-t5-small",
+      "type": "machine-learning-model",
+      "description": "No description available",
+      "copyright": "NOASSERTION",
+      "bom-ref": "pkg:huggingface/undefined/amazon/chronos-t5-small@undefined"
+    },
+    "properties": [
+      {
+        "name": "primaryPurpose",
+        "value": "text-to-speech"
+      },
+      {
+        "name": "suppliedBy"
+      },
+      {
+        "name": "licenses",
+        "value": "unknown"
+      },
+      {
+        "name": "downloadLocation"
+      }
+    ]
+  }
+}

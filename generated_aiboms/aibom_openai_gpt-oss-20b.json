@@ -1,0 +1,31 @@
+{
+  "bomFormat": "CycloneDX",
+  "components": [],
+  "dependencies": [],
+  "externalReferences": [],
+  "metadata": {
+    "component": {
+      "name": "openai/gpt-oss-20b",
+      "type": "machine-learning-model",
+      "description": "No description available",
+      "copyright": "NOASSERTION",
+      "bom-ref": "pkg:huggingface/undefined/openai/gpt-oss-20b@undefined"
+    },
+    "properties": [
+      {
+        "name": "primaryPurpose",
+        "value": "text-to-speech"
+      },
+      {
+        "name": "suppliedBy"
+      },
+      {
+        "name": "licenses",
+        "value": "unknown"
+      },
+      {
+        "name": "downloadLocation"
+      }
+    ]
+  }
+}
