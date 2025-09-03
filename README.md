@@ -5,7 +5,7 @@ The AIBOM Generator is a TypeScript-based application designed to fetch the top 
 
 ## Project Structure
 ```
-aibom-generator-hf
+aibom-generator
 ├── src
 │   ├── index.ts               # Entry point of the application
 │   ├── aibom
@@ -23,7 +23,7 @@ aibom-generator-hf
 1. Clone the repository:
    ```
    git clone <repository-url>
-   cd aibom-generator-hf
+   cd aibom-generator
    ```
 
 2. Install the dependencies:
