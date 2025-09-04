@@ -1,3 +1,6 @@
+import fs from "node:fs";
+import path from "node:path";
+
 export class AIBOMGenerator {
     generateAIBOM(modelData: any) { // eslint-disable-line @typescript-eslint/no-explicit-any
         const aibom = {
@@ -39,15 +42,13 @@ export class AIBOMGenerator {
         return aibom;
     }
 
-    saveAIBOM(aibom: any, filePath: string) {
-        const fs = require('fs');
-        const path = require('path');
+    saveAIBOM(aibom: any, filePath: string) { // eslint-disable-line @typescript-eslint/no-explicit-any
         const dir = path.join(process.cwd(), 'generated_aiboms');
         if (!fs.existsSync(dir)) {
             fs.mkdirSync(dir, { recursive: true });
         }
         // Replace slashes in filename with underscores to avoid subfolders
-        const safeFileName = filePath.replace(/[\/\\]/g, '_');
+        const safeFileName = filePath.replace(/[\\/]/g, '_');
         const fullPath = path.join(dir, safeFileName);
         fs.writeFileSync(fullPath, JSON.stringify(aibom, null, 2));
     }
