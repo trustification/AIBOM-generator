@@ -2,7 +2,7 @@
 # AIBOM Generator for Hugging Face Models
 
 ## Overview
-The AIBOM Generator is a TypeScript-based application designed to fetch the top 30 trending models from Hugging Face and generate AIBOMs (AI Bill of Materials) for each model. This project aims to streamline the process of documenting AI models and their dependencies.
+The AIBOM Generator is a TypeScript-based application designed to fetch the top 30 donwloaded models from Hugging Face and generate AIBOMs (AI Bill of Materials) for each model. This project aims to streamline the process of documenting AI models and their dependencies.
 
 ## Project Structure
 ```
