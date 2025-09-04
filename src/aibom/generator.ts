@@ -1,5 +1,5 @@
 export class AIBOMGenerator {
-    generateAIBOM(modelData: any) {
+    generateAIBOM(modelData: any) { // eslint-disable-line @typescript-eslint/no-explicit-any
         const aibom = {
             bomFormat: "CycloneDX",
             components: [],
