@@ -1,3 +1,4 @@
+[![ci](https://github.com/trustification/AIBOM-generator/actions/workflows/eslint.yml/badge.svg)](https://github.com/trustification/AIBOM-generator/actions/workflows/eslint.yml)
 # AIBOM Generator for Hugging Face Models
 
 ## Overview
