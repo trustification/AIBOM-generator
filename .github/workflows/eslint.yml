@@ -17,3 +17,9 @@ jobs:
         node-version: 22
     - run: npm ci
     - run: npm test # the lint will be called before the test see `pretest` script
+    - run: npm run coverage
+    - name: Upload coverage reports to Codecov
+      uses: codecov/codecov-action@v5
+      with:
+        token: ${{ secrets.CODECOV_TOKEN }}
+        slug: trustification/AIBOM-generator
