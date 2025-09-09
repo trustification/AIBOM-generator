@@ -1,4 +1,6 @@
 [![ci](https://github.com/trustification/AIBOM-generator/actions/workflows/eslint.yml/badge.svg)](https://github.com/trustification/AIBOM-generator/actions/workflows/eslint.yml)
+[![codecov](https://codecov.io/gh/trustification/AIBOM-generator/graph/badge.svg?token=XQMJ5KN00N)](https://codecov.io/gh/trustification/AIBOM-generator)
+
 # AIBOM Generator for Hugging Face Models
 
 ## Overview
