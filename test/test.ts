@@ -11,7 +11,7 @@ test('Generate something', async () => {
   const aibom = aibomGenerator.generateAIBOM(trendingModels.pop());
 
   const expected = 'CycloneDX';
-  assert.equal(expected, aibom.bomFormat);
+  assert.equal(aibom.bomFormat, expected);
 });
 
 test('Saves a temp file in generated_aiboms', () => {
