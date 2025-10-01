@@ -1,0 +1,31 @@
+{
+  "bomFormat": "CycloneDX",
+  "components": [],
+  "dependencies": [],
+  "externalReferences": [],
+  "metadata": {
+    "component": {
+      "name": "omni-research/Tarsier2-Recap-7b",
+      "type": "machine-learning-model",
+      "description": "No description available",
+      "copyright": "NOASSERTION",
+      "bom-ref": "pkg:huggingface/undefined/omni-research/Tarsier2-Recap-7b@undefined"
+    },
+    "properties": [
+      {
+        "name": "primaryPurpose",
+        "value": "text-to-speech"
+      },
+      {
+        "name": "suppliedBy"
+      },
+      {
+        "name": "licenses",
+        "value": "unknown"
+      },
+      {
+        "name": "downloadLocation"
+      }
+    ]
+  }
+}
