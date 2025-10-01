@@ -1,5 +1,6 @@
 import fs from "node:fs";
 import path from "node:path";
+import { CycloneDXValidator } from "@cyclonedx/cyclonedx-library";
 
 export class AIBOMGenerator {
   private validator: CycloneDXValidator;
