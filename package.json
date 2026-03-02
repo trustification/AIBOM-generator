@@ -12,14 +12,17 @@
     "coverage": "nyc --reporter=text --reporter=html --reporter=cobertura npm run test"
   },
   "dependencies": {
-    "axios": "^1.13.2"
+    "axios": "^1.13.6"
   },
   "devDependencies": {
-    "@types/node": "^25.0.3",
-    "@typescript-eslint/eslint-plugin": "^8.51.0",
-    "@typescript-eslint/parser": "^8.48.0",
-    "nyc": "^17.1.0",
-    "ts-node": "^10.4.0",
+    "@types/node": "^25.3.3",
+    "@typescript-eslint/eslint-plugin": "^8.56.1",
+    "@typescript-eslint/parser": "^8.56.1",
+    "eslint": "^10.0.2",
+    "@eslint/js": "10.0.1",
+    "@eslint/eslintrc": "3.3.4",
+    "nyc": "^18.0.0",
+    "ts-node": "^10.9.2",
     "tsx": "^4.21.0",
     "typescript": "^5.9.3"
   },
